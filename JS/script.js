@@ -38,13 +38,23 @@ var myMoney = 40;
 var getPaid = false; //Boolean
 
 //Output of the reason I want a new game
+
 console.log("I want to buy" +" "+ newGame +" "+ "so I can stream it on Twitch for my followers, but I don't know if I can afford it.");
 
-//OR Operator to decide whether I can buy the game today or if I have to wait till I get paid.
+//OR Operator to decide whether I can buy the game today or if I have to wait till I get paid within a conditional statement of if,else
+
 if(myMoney >= cost || getPaid){
     console.log("I can now go buy" +" "+newGame+" "+"today.")
 }else{
     console.log("I have to wait till I get paid to buy the new game.");
 }
 
+//Basic if,else conditional statement with prompt for those who want to know if they can play mature video games
 
+var answer = prompt("Are you 17 or older?");
+
+if(answer === 'yes'){
+    alert("You can play a mature rated video game.");
+}else{
+    alert("You are not yet old enough to play a mature rated game.")
+}
