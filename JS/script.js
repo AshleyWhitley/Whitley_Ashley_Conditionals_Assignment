@@ -8,7 +8,7 @@ Conditionals Assignment
 March 17, 2015
  */
 
-alert("Ashley Loves Video Games!")
+alert("Ashley Loves Video Games!");
 
 //variables to set up story
 
@@ -27,15 +27,16 @@ var total = allGames[0] + allGames[1] + allGames[2];
 console.log("My name is" + " " + personName + " " + "and I am known to play video games every time I can.");
 console.log("My favorite games to play are:" + " " + topGames + ".");
 console.log("I have mastered all" +" "+ gameTypes +" "+ "games.");
-console.log("My average amount of hours I play per game is" +" "+ average +" "+ "hours."); //calculation of average
-console.log("I have" +" "+ total +" "+ "games between all three consoles."); //array used to find total of games
+console.log("My average amount of hours I play per game is" +" "+ average +" "+ "hours."); //calculation of average with addition and division
+console.log("I have" +" "+ total +" "+ "games between all three consoles."); //array used to find total of games with addition
 
 //Finding out if I can buy the new game I want with the money I have using conditionals and a Boolean
+//Also am using the greater than or equal to (logical) operator and OR operator
 
 var newGame = "Battlefield Hardline";
 var cost = 65;
-var myMoney = 40;
-var getPaid = false; //Boolean
+var myMoney = 40; //changing this number changes the outcome printed to the console.
+var getPaid = false; //Boolean - changing this to true changes the outcome on the console.
 
 //Output of the reason I want a new game
 
@@ -62,3 +63,22 @@ if(answer === 'yes'){
 }
 
 //ternary conditional statement
+
+var gamerScore = 10000;
+
+console.log("I have an extremely high score on the XBOX which shows how much I game. Gamers are rated as 'serious gamers' after" +" "+ gamerScore +" "+ "points. These points are gained from achievements.");
+
+//Conditional Logic
+
+/*if(gamerScore > 4999){
+    console.log("You are truly a serious gamer.");
+}else{
+    console.log("Your score is still to low to be considered a serious gamer.");
+}*/
+
+//instead of the long statement above the ternary is quicker...changing the value of gamerScore will change the result.
+
+(gamerScore > 4999) ? console.log("I am truly a serious gamer.") : console.log("My score is still too low to be considered a serious gamer.");
+
+alert("Thank you for your response!");
+
