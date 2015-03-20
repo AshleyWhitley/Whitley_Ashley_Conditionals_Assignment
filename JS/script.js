@@ -78,7 +78,7 @@ console.log("Ashley has an extremely high score on the XBOX which shows how much
 
 //instead of the long statement above the ternary is quicker...changing the value of gamerScore will change the result.
 
-(gamerScore > 4999) ? console.log("She am truly a serious gamer.") : console.log("Her score is still too low to be considered a serious gamer.");
+(gamerScore > 4999) ? console.log("She is truly a serious gamer.") : console.log("Her score is still too low to be considered a serious gamer.");
 
 alert("Go play some video games!");
 
