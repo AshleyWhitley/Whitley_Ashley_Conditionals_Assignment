@@ -49,12 +49,16 @@ if(myMoney >= cost || getPaid){
     console.log("I have to wait till I get paid to buy the new game.");
 }
 
-//Basic if,else conditional statement with prompt for those who want to know if they can play mature video games
+//Else, if statement with three prompt options including a invalid response option.
 
 var answer = prompt("Are you 17 or older?");
 
 if(answer === 'yes'){
-    alert("You can play a mature rated video game.");
+    alert("You can play a mature rated video game."); //if they type in yes
+}else if(answer === 'no'){
+    alert("You are not yet old enough to play a mature rated game.") //if they type in no
 }else{
-    alert("You are not yet old enough to play a mature rated game.")
+    alert("That is an invalid response, refresh the page and try again.") //if they type in anything other than yes or no
 }
+
+//ternary conditional statement
