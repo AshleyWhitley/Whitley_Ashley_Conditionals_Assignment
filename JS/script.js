@@ -40,7 +40,7 @@ var getPaid = false; //Boolean - changing this to true changes the outcome on th
 
 //Output of the reason I want a new game
 
-console.log("I want to buy" +" "+ newGame +" "+ "so I can stream it on Twitch for my followers, but I don't know if I can afford it.");
+console.log("She wants to buy" +" "+ newGame +" "+ "so she can stream it on Twitch for her followers, but she doesn't know if she can afford it.");
 
 //OR Operator to decide whether I can buy the game today or if I have to wait till I get paid within a conditional statement of if,else
 
