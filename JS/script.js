@@ -8,7 +8,7 @@ Conditionals Assignment
 March 17, 2015
  */
 
-alert("Ashley Loves Video Games!");
+alert("Ashley Loves Video Games, are you a serious gamer?");
 
 //variables to set up story
 
@@ -45,14 +45,14 @@ console.log("I want to buy" +" "+ newGame +" "+ "so I can stream it on Twitch fo
 //OR Operator to decide whether I can buy the game today or if I have to wait till I get paid within a conditional statement of if,else
 
 if(myMoney >= cost || getPaid){
-    console.log("I can now go buy" +" "+newGame+" "+"today.")
+    console.log("Ashley can now go buy" +" "+newGame+" "+"today.")
 }else{
-    console.log("I have to wait till I get paid to buy the new game.");
+    console.log("Ashley will have to wait till I get paid to buy the new game.");
 }
 
 //Else, if statement with three prompt options including a invalid response option.
 
-var answer = prompt("Are you 17 or older?");
+var answer = prompt("In order to play most popular games you must be a certain age. Are you 17 or older?");
 
 if(answer === 'yes'){
     alert("You can play a mature rated video game."); //if they type in yes
@@ -66,7 +66,7 @@ if(answer === 'yes'){
 
 var gamerScore = 10000;
 
-console.log("I have an extremely high score on the XBOX which shows how much I game. Gamers are rated as 'serious gamers' after" +" "+ gamerScore +" "+ "points. These points are gained from achievements.");
+console.log("Ashley has an extremely high score on the XBOX which shows how much she games. Gamers are rated as 'serious gamers' after" +" "+ gamerScore +" "+ "points. These points are gained from achievements.");
 
 //Conditional Logic
 
@@ -78,7 +78,7 @@ console.log("I have an extremely high score on the XBOX which shows how much I g
 
 //instead of the long statement above the ternary is quicker...changing the value of gamerScore will change the result.
 
-(gamerScore > 4999) ? console.log("I am truly a serious gamer.") : console.log("My score is still too low to be considered a serious gamer.");
+(gamerScore > 4999) ? console.log("She am truly a serious gamer.") : console.log("Her score is still too low to be considered a serious gamer.");
 
 alert("Thank you for your response!");
 
