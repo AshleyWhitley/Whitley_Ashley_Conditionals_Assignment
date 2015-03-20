@@ -8,7 +8,7 @@ Conditionals Assignment
 March 17, 2015
  */
 
-alert("Ashley Loves Video Games, are you a serious gamer?");
+alert("Ashley Loves Video Games, you should too.");
 
 //variables to set up story
 
@@ -80,5 +80,5 @@ console.log("Ashley has an extremely high score on the XBOX which shows how much
 
 (gamerScore > 4999) ? console.log("She am truly a serious gamer.") : console.log("Her score is still too low to be considered a serious gamer.");
 
-alert("Thank you for your response!");
+alert("Go play some video games!");
 
