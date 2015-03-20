@@ -24,11 +24,11 @@ var total = allGames[0] + allGames[1] + allGames[2];
 
 //outputs to console to set up the story using numbers
 
-console.log("My name is" + " " + personName + " " + "and I am known to play video games every time I can.");
-console.log("My favorite games to play are:" + " " + topGames + ".");
-console.log("I have mastered all" +" "+ gameTypes +" "+ "games.");
-console.log("My average amount of hours I play per game is" +" "+ average +" "+ "hours."); //calculation of average with addition and division
-console.log("I have" +" "+ total +" "+ "games between all three consoles."); //array used to find total of games with addition
+console.log("Her name is" + " " + personName + " " + "and I am known to play video games every time I can.");
+console.log("Her favorite games to play are:" + " " + topGames + ".");
+console.log("She has mastered all" +" "+ gameTypes +" "+ "games.");
+console.log("Her average amount of hours she plays per game is" +" "+ average +" "+ "hours."); //calculation of average with addition and division
+console.log("She has" +" "+ total +" "+ "games between all three consoles."); //array used to find total of games with addition
 
 //Finding out if I can buy the new game I want with the money I have using conditionals and a Boolean
 //Also am using the greater than or equal to (logical) operator and OR operator
